@@ -63,9 +63,11 @@ body{
 }
 
 .apresentacao__links__link{
+    background: black;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    position: relative;
+    align-items: center;
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -76,6 +78,7 @@ body{
     color: #F6F6F6;
     font-family: "Montserrat", sans-serif;;
     font-weight: 600;
+    gap: 10px;
 }
 
 
@@ -85,5 +88,31 @@ body{
 }
 
 .apresentacao__links__link:hover{
-    background-color: #272727;
+    border: none;
+} 
+
+.apresentacao__links__link:hover:before, .apresentacao__links__link:hover:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 1.5px);
+    height: calc(100% + 1.5px);
+    background: linear-gradient(45deg,#22D4FD,#75e6ff, #bcf0fc,#ffffff,#22D4FD,#22D4FD,#75e6ff, #bcf0fc,#ffffff,#22D4FD
+    ,#22D4FD,#75e6ff, #bcf0fc,#ffffff,#22D4FD);
+    background-size: 300%;
+    border-radius: 8px;
+    animation: AnimaBorda 16s linear infinite;
 }
+
+/* #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
+    #ff9100,#ffff00, #00ff00, #0099ff, #001aff, #a200ff */
+
+
+@keyframes AnimaBorda {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 300%;
+    }
+}.5
