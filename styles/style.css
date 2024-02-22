@@ -30,7 +30,7 @@
 .cabecalho_menu_link{
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     border: 2px solid var(--cor-terciaria);
@@ -71,12 +71,12 @@ body{
 }
 
 .apresentacao__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -91,7 +91,7 @@ body{
 .apresentacao__links__subtitulo{
     font-family:var(--fonte-primaria);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .apresentacao__links__link{
@@ -104,7 +104,7 @@ body{
     text-align: center;
     border-radius: 8px;
     border: 2px solid var(--cor-terciaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 15px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -123,7 +123,7 @@ body{
     text-align: center;
     border-radius: 8px;
     border: 2px solid var(--cor-terciaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 15px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -142,7 +142,7 @@ body{
     text-align: center;
     border-radius: 8px;
     border: 2px solid var(--cor-terciaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 15px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -229,7 +229,7 @@ body{
 .rodape{
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 15px;
+    font-size: 1rem;
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria) bold;
     padding: 10px;
