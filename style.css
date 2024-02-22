@@ -7,13 +7,36 @@
     box-sizing: border-box;
 }
 
-header{
-
+.cabecalho{
+    padding: 2% 0% 1% 12%;
+    border-bottom: 2px solid #22D4FD;
+    border-radius: 0px 0px 40px 40px;
 }
 
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link{
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid #22D4FD;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.cabecalho_menu_link:hover{
+    background-color: #22D4FD;
+    border-radius: 8px;
+    color: black;
+    padding: 10px;
+}
 
 body{
-    min-height: 100vh;
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
@@ -24,7 +47,7 @@ body{
 }
 
 .apresentacao {
-    margin: 10%;
+    padding: 8% 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,4 +210,14 @@ body{
     100%{
         background-position: 300%;
     }
+}
+
+.rodape{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    background-color: #22D4FD;
+    color: black;
+    padding: 10px;
+    font-weight: 400;
 }
